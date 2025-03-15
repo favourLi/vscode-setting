@@ -1,0 +1,35 @@
+// 将键绑定放在此文件中以覆盖默认值
+[
+  {
+    "key": "ctrl+numpad1",
+    "command": "turboConsoleLog.displayLogMessage"
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "-turboConsoleLog.displayLogMessage"
+  },
+  {
+    "key": "ctrl+numpad2",
+    "command": "turboConsoleLog.commentAllLogMessages"
+  },
+  {
+    "key": "shift+alt+c",
+    "command": "-turboConsoleLog.commentAllLogMessages"
+  },
+  {
+    "key": "ctrl+numpad3",
+    "command": "turboConsoleLog.uncommentAllLogMessages"
+  },
+  {
+    "key": "shift+alt+u",
+    "command": "-turboConsoleLog.uncommentAllLogMessages"
+  },
+  {
+    "key": "ctrl+numpad4",
+    "command": "turboConsoleLog.deleteAllLogMessages"
+  },
+  {
+    "key": "shift+alt+d",
+    "command": "-turboConsoleLog.deleteAllLogMessages"
+  }
+]
