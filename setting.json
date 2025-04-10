@@ -153,5 +153,5 @@
     "workbench.editor.empty.hint": "hidden",
     "window.confirmSaveUntitledWorkspace": false,
     "git.openRepositoryInParentFolders": "always",
-    "workbench.preferredLightColorTheme": "Quiet Light",
+    "workbench.preferredLightColorTheme": "Default Light Modern",
   }
