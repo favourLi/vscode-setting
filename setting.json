@@ -154,4 +154,9 @@
     "window.confirmSaveUntitledWorkspace": false,
     "git.openRepositoryInParentFolders": "always",
     "workbench.preferredLightColorTheme": "Default Light Modern",
+    "cursor.cpp.enablePartialAccepts": true,
+    "[vue]": {
+      "editor.defaultFormatter": "Vue.volar"
+    },
+    "editor.cursorBlinking": "expand",
   }
