@@ -174,27 +174,27 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "workbench.colorCustomizations": {
-    "editorBracketHighlight.foreground1": "#d12f1b", // 深红
-    "editorBracketHighlight.foreground2": "#1c7ed6", // 蓝
-    "editorBracketHighlight.foreground3": "#2f9e44", // 绿
-    "editorBracketHighlight.foreground4": "#e67700", // 橙
-    "editorBracketHighlight.foreground5": "#ae3ec9", // 紫
-    "editorBracketHighlight.foreground6": "#0ca678", // 青绿
+    // 设置不同类型括号的颜色（支持原生 bracket pair colorization）
+  "editorBracketHighlight.foreground1": "#ff5555",  // 第一层
+  "editorBracketHighlight.foreground2": "#ed75f8",  // 第二层
+  "editorBracketHighlight.foreground3": "#45c665",  // 第三层
+  "editorBracketHighlight.foreground4": "#6bafbe",
+  "editorBracketHighlight.foreground5": "#bd93f9",
+  "editorBracketHighlight.foreground6": "#ff79c6",
 
-    // 括号错误高亮（例如未闭合）
-    "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000",
+  // 可选：当你点击在括号内时高亮的线条颜色
+  "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000",
+  "editorBracketMatch.background": "#e0e0e0",
+  "editorBracketMatch.border": "#999999",
 
-    // 括号匹配的边框/背景高亮
-    "editorBracketMatch.background": "#e0e0e0",
-    "editorBracketMatch.border": "#999999",
-
-    // 可选：代码注释颜色修改
-    "editor.tokenColorCustomizations": {
-      "comments": "#6272a4"
-    }
+  // 可选：代码注释颜色修改
+  "editor.tokenColorCustomizations": {
+    "comments": "#6272a4"
+  }
   }
 }
