@@ -1,6 +1,17 @@
 {
+    "window.autoDetectColorScheme": true,
+    "cursor.composer.queueMessageDefaultBehavior": "steer",
+    "cursor.composer.queueManualSendBehavior2": "steer",
+    "js/ts.tsserver.maxMemory": 4096,
+    "vue.server.maxOldSpaceSize": 4096,      // Volar 默认也是 4096
+    "editor.minimap.enabled": false,
+    "search.followSymlinks": false,
+    "files.watcherExclude": {
+      "**/node_modules/**": true, "**/.pnpm/**": true,
+      "**/dist/**": true, "**/.git/objects/**": true, "**/target/**": true
+    },
+    "update.mode": "manual",
     // ========== Visuals ==========
-    "editor.cursorSmoothCaretAnimation": "on",
     "window.autoDetectColorScheme": true,
     "workbench.list.smoothScrolling": true,
     "workbench.tree.expandMode": "singleClick",
@@ -68,10 +79,6 @@
     "window.title": "${rootName}", // this make tabs more readable
     "window.titleBarStyle": "custom",
     "extensions.autoUpdate": "onlyEnabledExtensions",
-  
-    // ========== Extension configs ==========
-    "emmet.showSuggestionsAsSnippets": true,
-    "emmet.triggerExpansionOnTab": false,
   
     "css.lint.hexColorLength": "ignore",
   
@@ -149,7 +156,6 @@
     },
     "editor.fontSize": 16,
     "editor.wordWrap": "bounded",
-    "workbench.editor.empty.hint": "hidden",
     "window.confirmSaveUntitledWorkspace": false,
     "git.openRepositoryInParentFolders": "always",
     "workbench.preferredLightColorTheme": "Default Light Modern",
@@ -182,7 +188,6 @@
     "editor.formatOnPaste": false, // required
     "editor.formatOnType": false, // optional
     "editor.formatOnSaveMode": "file", // optional but recommended
-    "vs-code-prettier-eslint.prettierLast": "false",
     "[vue]": {
       "editor.defaultFormatter": "Vue.volar"
     }, // set as "true" to run 'prettier' last not first
